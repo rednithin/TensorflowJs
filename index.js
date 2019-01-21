@@ -1,4 +1,4 @@
-const tf = require("@tensorflow/tfjs-node");
+const tf = require("@tensorflow/tfjs-node-gpu");
 
 // Basics
 console.log("\nBasics");

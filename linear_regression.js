@@ -1,4 +1,4 @@
-const tf = require("@tensorflow/tfjs-node");
+const tf = require("@tensorflow/tfjs-node-gpu");
 
 m = tf.scalar(Math.random()).variable();
 b = tf.scalar(Math.random()).variable();

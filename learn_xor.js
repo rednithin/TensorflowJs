@@ -1,4 +1,4 @@
-const tf = require("@tensorflow/tfjs-node");
+const tf = require("@tensorflow/tfjs-node-gpu");
 
 const { dense } = tf.layers;
 const { meanSquaredError } = tf.losses;
